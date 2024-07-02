@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  background: rgb(2, 2, 2);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.board {
+  padding: 2rem;
+  margin-right: 4rem;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(
+    to right bottom,
+    rgba(175, 255, 255, 0.7),
+    rgba(175, 255, 255, 0.3)
+  );
+  backdrop-filter: blur(1px);
+  border: 1px silver solid;
+  border-radius: 1rem;
+  z-index: 2;
+}
+#formu {
+  margin-top: 4rem;
+}
+.submit {
+  margin-top: 4rem;
+}
+
+#networkCanvas {
+  background: black;
+}
+#carCanvas {
+  background: lightgray;
+}

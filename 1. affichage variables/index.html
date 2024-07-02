@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Self-driving car - No libraries</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="affichage">
+      <p id="simul">type simul</p>
+      <p id="tirage">tirage</p>
+      <p id="carsLeft">nb voitures restantes</p>
+      <p id="timer">timer</p>
+      <p id="distance">distance</p>
+      <p id="fitness">fitness fonction</p>
+      <p id="barrage1">barrage1</p>
+      <p id="barrage2">barrage2</p>
+      <p id="barrage3">barrage3</p>
+      <p id="barrage4">barrage4</p>
+    </div>
+    <canvas id="carCanvas"></canvas>
+    <div id="verticalButtons">
+      <button onclick="save()">💾</button>
+      <button onclick="discard()">🗑️</button>
+    </div>
+    <canvas id="networkCanvas"></canvas>
+
+    <script src="variables.js"></script>
+    <script src="visualizer.js"></script>
+    <script src="network.js"></script>
+    <script src="sensor.js"></script>
+    <script src="utils.js"></script>
+    <script src="road.js"></script>
+    <script src="controls.js"></script>
+    <script src="car.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
